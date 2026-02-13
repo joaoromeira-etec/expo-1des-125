@@ -13,10 +13,10 @@ function Revisao02() {
             <Text style={styles.titulo}>Atividade 2</Text>
 
             {/* <Card 
-                nome={camisas[0].nome} 
-                decricao={camisas[0].decricao} 
-                valor={camisas[0].valor} 
-                imagem={camisas[0].imagem} 
+                nome={camisas[1].nome} 
+                decricao={camisas[1].decricao} 
+                valor={camisas[1].valor} 
+                imagem={camisas[1].imagem} 
             /> */}
 
             {
@@ -29,8 +29,6 @@ function Revisao02() {
                     />                    
                 )
             }
-
-
 
         </View>
     );

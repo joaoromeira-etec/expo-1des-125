@@ -25,11 +25,12 @@ import Atividade07 from './src/atividades/atv07';
 
 import Revisao02 from './src/revisao/rev02';
 import Revisao03 from './src/revisao/rev03';
+import Revisao09 from './src/revisao/rev09';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Revisao02 />
+      <Revisao09 />
       <StatusBar style="light" />
     </View>
   );
