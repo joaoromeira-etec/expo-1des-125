@@ -14,21 +14,64 @@ import Exemplo09 from '../exemplos/ex09';
 
 const Stack = createNativeStackNavigator();
 
-function stackExemplos() {
+function StackExemplos() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="Home" component={ListaExemplos} />
-      <Stack.Screen name="Ex1" component={Exemplo01} />
-      <Stack.Screen name="Ex2" component={Exemplo02} />
-      <Stack.Screen name="Ex3" component={Exemplo03} />
-      <Stack.Screen name="Ex4" component={Exemplo04} />
-      <Stack.Screen name="Ex5" component={Exemplo05} />
-      <Stack.Screen name="Ex6" component={Exemplo06} />
-      <Stack.Screen name="Ex7" component={Exemplo07} />
-      <Stack.Screen name="Ex8" component={Exemplo08} />
-      <Stack.Screen name="Ex9" component={Exemplo09} />
+    <Stack.Navigator screenOptions={{
+      headerStyle: { backgroundColor: '#330000'},
+      //headerShown: false,
+    }}>
+
+      <Stack.Screen 
+      name="Home" 
+      component={ListaExemplos} 
+      options={{title: 'Reactive Native', headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex1" 
+      component={Exemplo01}
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex2" 
+      component={Exemplo02} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex3" 
+      component={Exemplo03} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex4" 
+      component={Exemplo04} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex5" 
+      component={Exemplo05} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex6" 
+      component={Exemplo06} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex7" 
+      component={Exemplo07} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex8" 
+      component={Exemplo08} 
+      options={{headerTintColor: 'white'}}/>
+
+      <Stack.Screen 
+      name="Ex9" 
+      component={Exemplo09} 
+      options={{headerTintColor: 'white'}}/>
     </Stack.Navigator>
   );
 }
 
-export default stackExemplos;
+export default StackExemplos;
