@@ -6,6 +6,9 @@ import Constants from 'expo-constants';
 import { NavigationContainer } from '@react-navigation/native';
 
 import StackExemplos from './src/navegacao/stackExemplos';
+import StackAtividades from './src/navegacao/stackAtividades';
+
+import BottomTabs from './src/navegacao/bottomTabs';
 
 import Exemplo01 from './src/exemplos/ex01';
 import Exemplo02 from './src/exemplos/ex02'; 
@@ -35,7 +38,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <NavigationContainer>
-          <StackExemplos/>
+          <BottomTabs/>
       </NavigationContainer>
       <StatusBar style="light" />
     </View>

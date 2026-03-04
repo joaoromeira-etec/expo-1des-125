@@ -1,8 +1,7 @@
-import { StyleSheet } from 'react-native'; 
-import { RFPercentage } from "react-native-responsive-fontsize";
+import { StyleSheet } from 'react-native';
+import { RFPercentage, RFValue } from 'react-native-responsive-fontsize';
 
-const styles = StyleSheet.create(
-    {
+const styles = StyleSheet.create({
         container: { 
             flex: 1,
             padding: RFPercentage(1),   
@@ -22,11 +21,10 @@ const styles = StyleSheet.create(
             alignItems: 'center',
             borderRadius: RFPercentage(1)
         }, 
-        txtBotao: {
+   txtBotao: {
             fontWeight: 'bold',
             fontSize: RFPercentage(2), 
         },
-    }
-);  
+});
 
 export default styles;
